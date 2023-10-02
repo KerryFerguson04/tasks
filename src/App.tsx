@@ -15,6 +15,21 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript, Kerry Ferguson
             </header>
+            <h1>Hello World</h1>
+            <Container>
+                Unordered List:
+                <ul>
+                    <li>First thing</li>
+                    <li>Another thing</li>
+                    <li>A third item</li>
+                </ul>
+            </Container>
+            <img src={vulpix} alt="A picture of two vulpixes" />
+            <div>
+                <Button onClick={() => console.log("Hello World!")}>
+                    Log Hello World
+                </Button>
+            </div>
             <hr></hr>
             <Counter></Counter>
             <hr />
