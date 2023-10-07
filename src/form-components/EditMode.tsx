@@ -1,4 +1,4 @@
-import { userInfo } from "os";
+//import { userInfo } from "os";
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
@@ -6,6 +6,7 @@ export function EditMode(): JSX.Element {
     const [name, setName] = useState<string>("Your Name");
     const [student, setStudent] = useState<boolean>(true);
     const [editMode, setEditMode] = useState<boolean>(false);
+
     return (
         <div>
             <div>
