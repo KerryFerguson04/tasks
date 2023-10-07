@@ -53,7 +53,7 @@ export function EditMode(): JSX.Element {
                 {!editMode && student ? (
                     <span>{name} is a Student.</span>
                 ) : !editMode && !student ? (
-                    <span>{name} is not a Student.</span>
+                    <span>{name} is NOT a Student.</span>
                 ) : (
                     <span></span>
                 )}
